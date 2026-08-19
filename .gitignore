@@ -1,0 +1,14 @@
+/target
+**/target
+web/node_modules
+web/dist
+
+fsremote.log
+fsremote.e2e.log
+data/
+
+# End-to-end test artifacts
+tests/e2e/node_modules
+tests/e2e/playwright-report
+tests/e2e/test-results
+tests/e2e/fixtures

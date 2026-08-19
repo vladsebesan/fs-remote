@@ -1,0 +1,32 @@
+.row {
+  display: block;
+  width: 100%;
+  padding: 4px 8px;
+  border-radius: var(--mantine-radius-sm);
+  color: var(--mantine-color-text);
+  text-align: left;
+}
+
+.row:hover {
+  background: light-dark(
+    var(--mantine-color-gray-1),
+    var(--mantine-color-dark-6)
+  );
+}
+
+.row[data-active] {
+  background: light-dark(
+    var(--mantine-color-indigo-light),
+    var(--mantine-color-indigo-light)
+  );
+  color: var(--mantine-color-indigo-light-color);
+}
+
+.row[data-drop-target] {
+  outline: 2px dashed var(--mantine-color-indigo-6);
+  outline-offset: -2px;
+  background: light-dark(
+    var(--mantine-color-indigo-0),
+    var(--mantine-color-indigo-9)
+  );
+}

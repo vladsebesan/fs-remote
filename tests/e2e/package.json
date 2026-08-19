@@ -1,0 +1,19 @@
+{
+  "name": "fsremote-e2e",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "seed": "node ../../scripts/seed-e2e.mjs",
+    "install-browsers": "playwright install chromium chromium-headless-shell",
+    "install-browsers:local": "PLAYWRIGHT_BROWSERS_PATH=0 playwright install chromium chromium-headless-shell",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.10.1"
+  }
+}

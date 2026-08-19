@@ -1,0 +1,63 @@
+.card {
+  transition: background 80ms ease, border-color 80ms ease, box-shadow 80ms ease,
+    opacity 80ms ease;
+  user-select: none;
+}
+
+.card[data-selected="true"] {
+  background: light-dark(
+    var(--mantine-color-indigo-0),
+    var(--mantine-color-indigo-9)
+  );
+  border-color: var(--mantine-color-indigo-6);
+  box-shadow: 0 0 0 1px var(--mantine-color-indigo-6) inset;
+}
+
+.card[data-cut="true"],
+.row[data-cut="true"] {
+  opacity: 0.45;
+}
+
+.card[data-drop-target="true"],
+.row[data-drop-target="true"],
+.crumb[data-drop-target="true"],
+.treeRow[data-drop-target="true"] {
+  outline: 2px dashed var(--mantine-color-indigo-6);
+  outline-offset: -2px;
+  background: light-dark(
+    var(--mantine-color-indigo-0),
+    var(--mantine-color-indigo-9)
+  );
+}
+
+.row {
+  transition: background 80ms ease, opacity 80ms ease;
+}
+
+.row[data-selected="true"] > td {
+  background: light-dark(
+    var(--mantine-color-indigo-0),
+    var(--mantine-color-indigo-9)
+  ) !important;
+}
+
+.crumb {
+  padding: 2px 4px;
+  border-radius: var(--mantine-radius-sm);
+}
+
+.dropBadge {
+  position: fixed;
+  top: -9999px;
+  left: -9999px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: var(--mantine-color-indigo-6);
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 9999;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

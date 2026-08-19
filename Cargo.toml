@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = ["crates/protocol", "crates/server", "crates/wasm-client"]
+
+[workspace.package]
+edition = "2021"
+license = "MIT"

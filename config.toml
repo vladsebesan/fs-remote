@@ -1,0 +1,26 @@
+bind = "127.0.0.1:8080"
+jwt_secret = "dev-secret-change-me"
+jwt_exp_secs = 3600
+max_chunk_size = 1048576
+max_upload_size = 1073741824
+log_path = "fsremote.log"
+# Optional: explicit timing log path. If omitted, defaults to "fsremote.timing.log" next to log_path.
+# timing_log_path = "fsremote.timing.log"
+
+# Any number of [[roots]] entries. Each maps a stable `id` to a folder on disk.
+# `path` may be absolute, or relative to the directory where you start the server.
+# Duplicate `id` values are not allowed to mean two folders — last wins in the file; use unique ids.
+
+[[roots]]
+id = "workspace-a"
+label = "Workspace A"
+path = "tests/e2e/fixtures/workspaceA"
+
+[[roots]]
+id = "workspace-b"
+label = "Workspace B"
+path = "tests/e2e/fixtures/workspaceB"
+
+[[users]]
+username = "admin"
+password_hash = "$2b$12$uZy/rRS5qjZYss.KnbGJW.Z5Yml62R4SlCNTwNt7yYk95Gg9hOdWO"

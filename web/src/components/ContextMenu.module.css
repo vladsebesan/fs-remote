@@ -1,0 +1,49 @@
+.menu {
+  min-width: 190px;
+  background: var(--mantine-color-body);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: var(--mantine-radius-sm);
+  color: var(--mantine-color-text);
+  text-align: left;
+  cursor: pointer;
+}
+
+.item:hover {
+  background: light-dark(
+    var(--mantine-color-gray-1),
+    var(--mantine-color-dark-6)
+  );
+}
+
+.item[disabled] {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.item[data-danger] {
+  color: var(--mantine-color-red-6);
+}
+
+.item[data-danger]:hover {
+  background: light-dark(
+    var(--mantine-color-red-0),
+    var(--mantine-color-red-9)
+  );
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  opacity: 0.85;
+}
