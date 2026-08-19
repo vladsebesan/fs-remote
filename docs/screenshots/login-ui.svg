@@ -1,0 +1,20 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#0B1020"/>
+  <rect x="80" y="60" width="1040" height="680" rx="28" fill="#111827" stroke="#334155"/>
+  <rect x="120" y="110" width="960" height="70" rx="14" fill="#1F2937"/>
+  <circle cx="170" cy="145" r="18" fill="#60A5FA"/>
+  <rect x="210" y="130" width="230" height="30" rx="8" fill="#0F172A"/>
+  <rect x="700" y="130" width="180" height="30" rx="8" fill="#0F172A"/>
+  <rect x="900" y="130" width="120" height="30" rx="8" fill="#0F172A"/>
+
+  <rect x="440" y="200" width="320" height="420" rx="22" fill="#0F172A" stroke="#334155"/>
+  <text x="560" y="280" font-family="Arial, sans-serif" font-size="28" fill="#E5E7EB" text-anchor="middle" font-weight="700">fsremote</text>
+  <text x="560" y="320" font-family="Arial, sans-serif" font-size="16" fill="#94A3B8" text-anchor="middle">Secure file access</text>
+  <rect x="485" y="360" width="230" height="48" rx="10" fill="#1F2937"/>
+  <rect x="485" y="430" width="230" height="48" rx="10" fill="#1F2937"/>
+  <text x="505" y="391" font-family="Arial, sans-serif" font-size="14" fill="#64748B">Username</text>
+  <text x="505" y="461" font-family="Arial, sans-serif" font-size="14" fill="#64748B">Password</text>
+  <rect x="485" y="500" width="230" height="46" rx="10" fill="#2563EB"/>
+  <text x="600" y="529" font-family="Arial, sans-serif" font-size="18" fill="#EFF6FF" text-anchor="middle" font-weight="700">Login</text>
+  <text x="560" y="575" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8" text-anchor="middle">admin / admin</text>
+</svg>

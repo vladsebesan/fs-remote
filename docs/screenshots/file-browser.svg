@@ -1,0 +1,30 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#0B1020"/>
+  <rect x="80" y="60" width="1040" height="680" rx="28" fill="#111827" stroke="#334155"/>
+  <rect x="120" y="110" width="960" height="70" rx="14" fill="#1F2937"/>
+  <circle cx="170" cy="145" r="18" fill="#60A5FA"/>
+  <text x="210" y="153" font-family="Arial, sans-serif" font-size="24" fill="#E5E7EB">fsremote</text>
+  <rect x="840" y="130" width="110" height="30" rx="8" fill="#0F172A"/>
+  <rect x="960" y="130" width="100" height="30" rx="8" fill="#0F172A"/>
+
+  <rect x="120" y="210" width="250" height="480" rx="18" fill="#0F172A" stroke="#334155"/>
+  <text x="170" y="255" font-family="Arial, sans-serif" font-size="23" fill="#E5E7EB" font-weight="700">Roots</text>
+  <rect x="150" y="290" width="190" height="44" rx="10" fill="#1F2937"/>
+  <text x="175" y="319" font-family="Arial, sans-serif" font-size="18" fill="#E5E7EB">Workspace A</text>
+  <rect x="150" y="352" width="190" height="44" rx="10" fill="#0F172A" stroke="#334155"/>
+  <text x="175" y="381" font-family="Arial, sans-serif" font-size="18" fill="#94A3B8">Workspace B</text>
+
+  <rect x="410" y="210" width="650" height="480" rx="18" fill="#0F172A" stroke="#334155"/>
+  <text x="445" y="255" font-family="Arial, sans-serif" font-size="24" fill="#E5E7EB" font-weight="700">/workspace-a</text>
+  <rect x="444" y="285" width="590" height="54" rx="10" fill="#1F2937"/>
+  <text x="470" y="319" font-family="Arial, sans-serif" font-size="18" fill="#94A3B8">Name</text>
+  <rect x="444" y="355" width="590" height="62" rx="12" fill="#111827"/>
+  <rect x="470" y="373" width="25" height="25" rx="5" fill="#60A5FA"/>
+  <text x="512" y="391" font-family="Arial, sans-serif" font-size="18" fill="#E5E7EB">README.md</text>
+  <rect x="444" y="430" width="590" height="62" rx="12" fill="#111827"/>
+  <rect x="470" y="448" width="25" height="25" rx="5" fill="#34D399"/>
+  <text x="512" y="466" font-family="Arial, sans-serif" font-size="18" fill="#E5E7EB">src</text>
+  <rect x="444" y="505" width="590" height="62" rx="12" fill="#111827"/>
+  <rect x="470" y="523" width="25" height="25" rx="5" fill="#FBBF24"/>
+  <text x="512" y="541" font-family="Arial, sans-serif" font-size="18" fill="#E5E7EB">data</text>
+</svg>

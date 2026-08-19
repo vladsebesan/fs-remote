@@ -57,6 +57,16 @@ cargo run -p fsremote-server -- hash-password 'your-password'
 - [`crates/wasm-client`](crates/wasm-client) — minimal WASM stub (protocol helpers); the browser worker implements the client in TypeScript today.
 - [`web`](web) — React + Comlink worker.
 
+## Screenshots
+
+The project includes a lightweight gallery for GitHub Pages at [`docs/index.html`](docs/index.html), with UI mockups in [`docs/screenshots`](docs/screenshots).
+
+![Login screen](docs/screenshots/login-ui.svg)
+
+![File browser](docs/screenshots/file-browser.svg)
+
+![Workspace overview](docs/screenshots/workspace-view.svg)
+
 ## Tests
 
 ```bash

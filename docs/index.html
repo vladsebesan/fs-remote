@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fsremote</title>
+    <style>
+      :root {
+        --bg: #0b1020;
+        --panel: #111827;
+        --panel-2: #1f2937;
+        --text: #e5e7eb;
+        --muted: #94a3b8;
+        --accent: #60a5fa;
+        --accent-2: #34d399;
+        --border: rgba(148, 163, 184, 0.2);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, "Segoe UI", sans-serif;
+        background: radial-gradient(circle at top, #0f172a, var(--bg));
+        color: var(--text);
+      }
+      .wrap {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 48px 20px 80px;
+      }
+      h1 {
+        font-size: clamp(2.5rem, 4vw, 4rem);
+        margin-bottom: 12px;
+      }
+      .subtitle {
+        color: var(--muted);
+        font-size: 1.1rem;
+        max-width: 720px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+        gap: 24px;
+        margin-top: 32px;
+      }
+      .card {
+        background: rgba(17, 24, 39, 0.8);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 18px 45px rgba(15, 23, 42, 0.45);
+      }
+      .card img {
+        display: block;
+        width: 100%;
+        height: auto;
+        background: #0f172a;
+      }
+      .card .caption {
+        padding: 12px 16px 18px;
+        color: var(--muted);
+      }
+      .badge {
+        display: inline-block;
+        border: 1px solid rgba(96, 165, 250, 0.4);
+        color: var(--accent);
+        background: rgba(96, 165, 250, 0.1);
+        border-radius: 999px;
+        padding: 6px 10px;
+        margin-bottom: 18px;
+        font-size: 0.8rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="badge">fsremote</div>
+      <h1>Secure, browser-based file access</h1>
+      <p class="subtitle">
+        fsremote is a Rust + React app for browsing allowlisted folders over HTTP and WebSockets,
+        with secure login and live filesystem updates.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <img src="screenshots/login-ui.svg" alt="fsremote login screen mockup" />
+          <div class="caption">Login screen</div>
+        </div>
+        <div class="card">
+          <img src="screenshots/file-browser.svg" alt="fsremote file browser mockup" />
+          <div class="caption">Folder browser</div>
+        </div>
+        <div class="card">
+          <img src="screenshots/workspace-view.svg" alt="fsremote workspace view mockup" />
+          <div class="caption">Workspace overview</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

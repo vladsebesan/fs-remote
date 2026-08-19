@@ -1,0 +1,30 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#0B1020"/>
+  <rect x="80" y="60" width="1040" height="680" rx="28" fill="#111827" stroke="#334155"/>
+  <rect x="120" y="110" width="960" height="70" rx="14" fill="#1F2937"/>
+  <circle cx="170" cy="145" r="18" fill="#34D399"/>
+  <text x="210" y="153" font-family="Arial, sans-serif" font-size="24" fill="#E5E7EB">fsremote</text>
+  <rect x="820" y="128" width="140" height="34" rx="8" fill="#0F172A"/>
+  <rect x="972" y="128" width="80" height="34" rx="8" fill="#2563EB"/>
+
+  <rect x="120" y="215" width="260" height="470" rx="18" fill="#0F172A" stroke="#334155"/>
+  <text x="155" y="260" font-family="Arial, sans-serif" font-size="22" fill="#E5E7EB" font-weight="700">Workspace</text>
+  <rect x="150" y="295" width="200" height="12" rx="6" fill="#334155"/>
+  <rect x="150" y="325" width="170" height="12" rx="6" fill="#334155"/>
+  <rect x="150" y="355" width="185" height="12" rx="6" fill="#334155"/>
+  <rect x="150" y="385" width="150" height="12" rx="6" fill="#334155"/>
+
+  <rect x="420" y="215" width="640" height="470" rx="18" fill="#0F172A" stroke="#334155"/>
+  <rect x="450" y="250" width="235" height="150" rx="16" fill="#1F2937"/>
+  <rect x="710" y="250" width="300" height="150" rx="16" fill="#1F2937"/>
+  <rect x="450" y="425" width="560" height="200" rx="16" fill="#1F2937"/>
+
+  <text x="470" y="290" font-family="Arial, sans-serif" font-size="18" fill="#94A3B8">Files</text>
+  <text x="470" y="360" font-family="Arial, sans-serif" font-size="36" fill="#E5E7EB" font-weight="700">142</text>
+  <text x="730" y="290" font-family="Arial, sans-serif" font-size="18" fill="#94A3B8">Updated</text>
+  <text x="730" y="360" font-family="Arial, sans-serif" font-size="30" fill="#34D399" font-weight="700">Live</text>
+  <rect x="478" y="470" width="175" height="16" rx="8" fill="#60A5FA"/>
+  <rect x="478" y="500" width="235" height="16" rx="8" fill="#334155"/>
+  <rect x="478" y="530" width="203" height="16" rx="8" fill="#334155"/>
+  <rect x="478" y="560" width="165" height="16" rx="8" fill="#334155"/>
+</svg>
