@@ -57,6 +57,26 @@ cargo run -p fsremote-server -- hash-password 'your-password'
 - [`crates/wasm-client`](crates/wasm-client) — minimal WASM stub (protocol helpers); the browser worker implements the client in TypeScript today.
 - [`web`](web) — React + Comlink worker.
 
+## Author
+
+Copyright (c) 2026 Vlad Sebeșan.
+
+## License
+
+This project is source-available, not open for redistribution.
+
+You may:
+- view the source code,
+- run the project locally,
+- evaluate it for personal or internal use.
+
+You may not:
+- copy, rehost, redistribute, sell, or sublicense the source code or binaries,
+- publish or mirror the project to another repository or service,
+- distribute modified versions without written permission from the author.
+
+The full license text is in [`LICENSE`](LICENSE).
+
 ## Screenshots
 
 The project includes a lightweight gallery for GitHub Pages at [`docs/index.html`](docs/index.html), with actual captured screens from the local app in [`docs/screenshots`](docs/screenshots).
