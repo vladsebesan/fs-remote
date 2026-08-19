@@ -7998,3 +7998,26 @@
 1787152100138	ws	list	root_id=workspace-a path=	0.285	ok
 1787152100139	ws	list_tree	root_id=workspace-a	0.815	ok
 1787152100139	ws	list	root_id=workspace-a path=	0.220	ok
+1787152734246	http	GET /api/roots		0.306	ok
+1787152734251	http	GET /api/roots		0.003	ok
+1787152757073	http	POST /api/login	user=admin	954.851	ok
+1787152757101	ws	list	root_id=workspace-a path=	2.297	ok
+1787152757103	ws	list_tree	root_id=workspace-a	0.961	ok
+1787152757103	ws	list_tree	root_id=workspace-b	0.645	ok
+1787152766205	ws	list	root_id=workspace-b path=	0.542	ok
+1787152767687	ws	list	root_id=workspace-b path=projects	0.457	ok
+1787152768814	ws	list	root_id=workspace-a path=docs	0.480	ok
+1787152995453	http	GET /api/roots		0.507	ok
+1787152995463	http	GET /api/roots		0.004	ok
+1787153021059	http	GET /api/roots		0.511	ok
+1787153021063	http	GET /api/roots		0.004	ok
+1787153289452	http	GET /api/roots		0.269	ok
+1787153289456	http	GET /api/roots		0.004	ok
+1787153329566	http	GET /api/roots		0.016	ok
+1787153329569	http	GET /api/roots		0.005	ok
+1787153373053	http	GET /api/roots		0.008	ok
+1787153373057	http	GET /api/roots		0.005	ok
+1787153375079	http	POST /api/login	user=admin	1731.495	ok
+1787153375125	ws	list	root_id=workspace-a path=	3.157	ok
+1787153375127	ws	list_tree	root_id=workspace-a	1.268	ok
+1787153375128	ws	list_tree	root_id=workspace-b	1.329	ok
