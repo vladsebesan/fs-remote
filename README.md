@@ -63,17 +63,7 @@ Copyright (c) 2026 Vlad Sebeșan.
 
 ## License
 
-This project is source-available, not open for redistribution.
-
-You may:
-- view the source code,
-- run the project locally,
-- evaluate it for personal or internal use.
-
-You may not:
-- copy, rehost, redistribute, sell, or sublicense the source code or binaries,
-- publish or mirror the project to another repository or service,
-- distribute modified versions without written permission from the author.
+This project is licensed under the MIT License.
 
 The full license text is in [`LICENSE`](LICENSE).
 

@@ -4,5 +4,5 @@ members = ["crates/protocol", "crates/server", "crates/wasm-client"]
 
 [workspace.package]
 edition = "2021"
-license = "UNLICENSED"
+license = "MIT"
 authors = ["Vlad Sebeșan <vladsebesan@users.noreply.github.com>"]
