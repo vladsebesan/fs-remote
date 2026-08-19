@@ -59,13 +59,11 @@ cargo run -p fsremote-server -- hash-password 'your-password'
 
 ## Screenshots
 
-The project includes a lightweight gallery for GitHub Pages at [`docs/index.html`](docs/index.html), with UI mockups in [`docs/screenshots`](docs/screenshots).
+The project includes a lightweight gallery for GitHub Pages at [`docs/index.html`](docs/index.html), with actual captured screens from the local app in [`docs/screenshots`](docs/screenshots).
 
-![Login screen](docs/screenshots/login-ui.svg)
+![Login screen](docs/screenshots/login-real.png)
 
-![File browser](docs/screenshots/file-browser.svg)
-
-![Workspace overview](docs/screenshots/workspace-view.svg)
+![Workspace overview](docs/screenshots/workspace-real.png)
 
 ## Tests
 
